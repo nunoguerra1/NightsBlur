@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+QLD+Hand:wght@400..700&family=Montserrat:ital@0;1&family=Syne:wght@500&display=swap');
+body {
+    background-color: #000103;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#video-bg, #video-day, #video-night {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    object-fit: cover;
+    position: static;
+    z-index: auto;
+}
+
+h1 {
+    position: static;
+    z-index: 1;
+    margin-top: -900px;
+    text-align: center;
+    color: #a11615;
+    font-size: 400px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.autoBlur {
+    animation: autoBlurAnimation linear both;
+    animation-timeline: view();
+}
+
+@keyframes autoBlurAnimation {
+    0% {
+        filter: blur(40px);
+    }
+    45%, 55%{
+        filter: blur(0px);
+    } 
+    100% {
+        filter: blur(40px);
+    }
+}
+
+.nights1 {
+    margin-top: -800px;
+}
+
+.ttop {
+    font-family: "Montserrat", sans-serif;
+    color: #ffff;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    margin-top: -850px;
+}
+
+.autoBlur2 {
+    animation: autoBlurAnimation2 linear both;
+    animation-timeline: view();
+}
+
+@keyframes autoBlurAnimation2 {
+    0% {
+        filter: blur(40px);
+    }
+    45%, 55%{
+        filter: blur(0px);
+    } 
+    100% {
+        filter: blur(40px);
+    }
+}
+
+.responsaveis {
+    display: flex;
+    gap: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffff;
+    text-align: center;
+    font-size: 20px;
+    position: static;
+    margin-left: 560px;
+    margin-top: 400px;
+}
+
+.sobre {
+   font-family: "Montserrat", sans-serif;
+    color: #dfdfdf;
+    text-align: center;
+    font-size: 20px;
+    position: static; 
+}
+
+.nights2 {
+    margin-top: -800px;
+    font-size: 300px;
+}
+
+.ttop2 {
+    font-family: "Montserrat", sans-serif;
+    color: #ffff;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    margin-top: -700px;
+}
+
+.responsaveis2 {
+    display: flex;
+    gap: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffff;
+    text-align: center;
+    font-size: 20px;
+    position: static;
+    margin-left: 560px;
+    margin-top: 400px;
+}
+
+.sobre2 {
+   font-family: "Montserrat", sans-serif;
+    color: #dfdfdf;
+    text-align: center;
+    font-size: 20px;
+    position: static; 
+}
+
+.autoBlur3 {
+    animation: autoBlurAnimation3 linear both;
+    animation-timeline: view();
+}
+
+@keyframes autoBlurAnimation3 {
+    0% {
+        filter: blur(40px);
+    }
+    55%, 65%{
+        filter: blur(0px);
+    } 
+    100% {
+        filter: blur(40px);
+    }
+}
